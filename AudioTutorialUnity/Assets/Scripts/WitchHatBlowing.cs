@@ -23,11 +23,11 @@ public class WitchHatBlowing : MonoBehaviour
         if (other.tag == "Player")
         {
             anim.SetTrigger(animtionParamater);
-            playTumbleweed();
+            playTumbleweed2();
         }
     }
 
-    public void playTumbleweed()
+    public void playTumbleweed2()
     {
         audioSrc.PlayOneShot(audioClp);
     }
