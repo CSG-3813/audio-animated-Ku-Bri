@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Z_Walk
+  m_Name: Z_Walk back
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -12209,7 +12209,7 @@ AnimationClip:
     m_KeepOriginalPositionY: 1
     m_KeepOriginalPositionXZ: 1
     m_HeightFromFeet: 0
-    m_Mirror: 0
+    m_Mirror: 1
   m_EditorCurves:
   - curve:
       serializedVersion: 2

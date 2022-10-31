@@ -15,6 +15,7 @@ public class WitchHatBlowing : MonoBehaviour
         anim = GetComponent<Animator>();
         audioSrc = GetComponent<AudioSource>();
         audioClp = audioSrc.clip;
+        Debug.Log(audioClp);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -22,6 +23,7 @@ public class WitchHatBlowing : MonoBehaviour
         if (other.tag == "Player")
         {
             anim.SetTrigger(animtionParamater);
+            playTumbleweed();
         }
     }
 
